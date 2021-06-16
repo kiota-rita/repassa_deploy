@@ -34,3 +34,14 @@
     color: #401c52;
 }
 
+.inicio{
+    color: #61297c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inicio:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+

@@ -26,7 +26,7 @@ export class PostagemDeleteComponent implements OnInit {
     window.scroll(0,0)
     
     if(environment.token == ''){
-      this.router.navigate(['/entrar'])
+      this.router.navigate(['/logar'])
     }
 
     this.idPost = this.route.snapshot.params['id']
@@ -41,7 +41,7 @@ export class PostagemDeleteComponent implements OnInit {
 
   apagar(){
     this.postagemService.deletePostagem(this.idPost).subscribe(()=>{
-      this.alertas.showAlertSuccess('Tema apagado com sucesso!')
+      this.alertas.showAlertSuccess('Postagem apagada com sucesso!')
       this.router.navigate(['/inicio'])
     })
   }
