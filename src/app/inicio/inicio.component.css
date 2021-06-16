@@ -10,10 +10,15 @@
 
 }
 
-#perfilLateral {
+#perfilLateral .border{
+  font-family: Poppins, sans-serif;
   height: 480px;
   left: 0;
-  width: 100%;
+  width: 80%;
+  box-shadow: #d6d2c4 3px 3px;
+  overflow: hidden;
+  color: #61297c;
+  font-weight: bold;
 }
 
 .align-items-center {
@@ -294,6 +299,12 @@ ul.list li:hover {
 right: 0;
 }
 
+.lateral-direita .card-amigos{
+  right: 0;
+  box-shadow: #d6d2c4 3px 3px;
+  overflow: hidden;
+  }
+
 .postagens{
 margin: auto;
 }
@@ -395,6 +406,8 @@ hr {
       
       color:#ff147c
 }
+
+
 
 
 
