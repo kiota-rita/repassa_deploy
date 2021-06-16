@@ -25,3 +25,9 @@ button {
         
         color: black;
   }
+
+  .navbar{
+    z-index: 200;
+    background-color: white;
+    transition: background-color;
+  }

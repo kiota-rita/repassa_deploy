@@ -10,9 +10,13 @@
 
 }
 
+#feed{
+  top: 15%;
+}
+
 #perfilLateral .border{
   font-family: Poppins, sans-serif;
-  height: 480px;
+  height: 450px;
   left: 0;
   width: 80%;
   box-shadow: #d6d2c4 3px 3px;
@@ -297,6 +301,7 @@ ul.list li:hover {
 
 .lateral-direita{
 right: 0;
+top: 15%;
 }
 
 .lateral-direita .card-amigos{
@@ -405,6 +410,10 @@ hr {
       filter: drop-shadow(9px 10px 5px rgba(0,0,0,.4));
       
       color:#ff147c
+}
+
+.navbar{
+  background-color: white;
 }
 
 
