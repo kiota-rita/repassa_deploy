@@ -14,6 +14,13 @@
   top: 15%;
 }
 
+/* perfil usuario - lado esquerdo */
+@media(max-width: 780px){
+  .lado-esquerdo{
+    display: none;
+  }
+} 
+
 #perfilLateral .border{
   font-family: Poppins, sans-serif;
   height: 450px;
@@ -304,11 +311,23 @@ right: 0;
 top: 15%;
 }
 
+
 .lateral-direita .card-amigos{
   right: 0;
   box-shadow: #d6d2c4 3px 3px;
   overflow: hidden;
   }
+
+  /* amigos e campnanhas - lado direito */
+
+   @media(max-width: 780px){
+    .lado-direito{
+      display: none
+    }
+  } 
+
+
+
 
 .postagens{
 margin: auto;
